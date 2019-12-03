@@ -5,7 +5,7 @@ import java.util.Scanner;
 		System.out.print((n+m));
 	}
  }
- public class Main extends Parent
+ public class Inheritance extends Parent
  {
  public static void main(String[] args) 
     {
@@ -16,7 +16,7 @@ import java.util.Scanner;
 		a=sc.nextInt();
 		System.out.println("Enter first value:");
 		b=sc.nextInt();
-		Parent ob=new Main();
+		Parent ob=new Inheritance();
 		ob.add(a,b);
 		/*Parent o= new Parent();
 		System.out.println("");
