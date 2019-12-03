@@ -1,9 +1,9 @@
 import java.util.Scanner;
-public class Main {
+public class Mainobj {
 public String name,address,cnum,email,ptype,pid;
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	     Main a=new Main();
+	     Mainobj a=new Mainobj();
 		Scanner sc=new Scanner(System.in);
 		String name,address,cnum,email,ptype,pid;
 		System.out.println("Enter your name:");
