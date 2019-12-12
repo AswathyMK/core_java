@@ -1,11 +1,12 @@
 
-public class Abstraction {
-
-	public static void main(String[] args) {
+public class Abstraction 
+{
+	public static void main(String[] args) 
+	{
 		// TODO Auto-generated method stub
-		Racoon racoon=new Racoon("Racoon");
-        racoon.eat();
-        racoon.breathe();
+	        Racoon racoon=new Racoon("Racoon");
+                racoon.eat();
+                racoon.breathe();
 	}
 
 }
@@ -28,7 +29,8 @@ class Racoon extends Animal
 	public Racoon(String name)
 	{
 		super(name);
-	}public void eat()
+	}
+	public void eat()
 	{
 	System.out.println(getName()+"is eating");	
 	}
