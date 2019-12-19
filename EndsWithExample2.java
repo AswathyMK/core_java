@@ -1,8 +1,8 @@
 
-public class EndsWithExample2 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class EndsWithExample2 
+{
+	public static void main(String[] args) 
+	{
 		String str="Welcome to FACE.in";
 		System.out.println(str.endsWith("in"));
 		if(str.endsWith(".com"))
