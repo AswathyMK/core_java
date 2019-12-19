@@ -3,11 +3,10 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.FileReader;
 
-
-public class FileReadingExample {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class FileReadingExample 
+{
+	public static void main(String[] args) 
+	{
 		BufferedReader b=null;
 		try
 		{
@@ -29,20 +28,23 @@ public class FileReadingExample {
 					sb.append("\n***********\n");
 					System.out.println(sb);
 				}
-				}
-				System.out.println("Done");
-			
+			}
+			System.out.println("Done");
 		}
-       catch(IOException e)
+		catch(IOException e)
 		{
-	     e.printStackTrace();
-		}finally
+			e.printStackTrace();
+		}
+		finally
 		{
 			try
 			{
 				if(b!=null)
+				{	
 					b.close();
-			}catch (IOException ex)
+				}
+			}
+			catch (IOException ex)
 			{
 				ex.printStackTrace();
 			}
