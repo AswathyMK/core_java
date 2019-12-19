@@ -1,8 +1,8 @@
 
-public class ConcatExample3 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+public class ConcatExample3 
+{
+	public static void main(String[] args) 
+	{
 		String s1="Hello";
 		String s2="FAE@2.0";
 		String s3="Reader";
