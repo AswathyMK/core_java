@@ -1,12 +1,8 @@
 import java.util.Scanner;
-
-public class Encapsulation {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		
-		
+public class Encapsulation 
+{
+	public static void main(String[] args) 
+	{
 		Scanner sc=new Scanner(System.in);
 		String name,address,cnum,email,ptype,pid;
 		System.out.println("Enter your name:");
