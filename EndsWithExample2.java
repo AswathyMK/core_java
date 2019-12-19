@@ -8,8 +8,11 @@ public class EndsWithExample2
 		if(str.endsWith(".com"))
 		{
 			System.out.println("String ends with .com");
-		}else
+		}
+		else
+		{
 			System.out.println("It does not end with .com");
+		}
 
 	}
 
