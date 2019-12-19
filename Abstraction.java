@@ -3,8 +3,7 @@ public class Abstraction
 {
 	public static void main(String[] args) 
 	{
-		// TODO Auto-generated method stub
-	        Racoon racoon=new Racoon("Racoon");
+		Racoon racoon=new Racoon("Racoon");
                 racoon.eat();
                 racoon.breathe();
 	}
@@ -32,7 +31,7 @@ class Racoon extends Animal
 	}
 	public void eat()
 	{
-	System.out.println(getName()+"is eating");	
+		System.out.println(getName()+"is eating");	
 	}
 	public void breathe()
 	{
