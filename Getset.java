@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class Getset {
+public class Getset 
+{
 	String name,address,cnum,email,ptype,pid;
 	public void setname(String name,String address,String cnum,String email,String ptype,String pid)
 	{
@@ -10,11 +11,11 @@ public class Getset {
 		this.ptype=ptype;
 		this.pid=pid;
 	}
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
+		
 		Scanner sc=new Scanner(System.in);
 		String name,address,cnum,email,ptype,pid;
-		//Registration a=new Registration();
 		System.out.println("Enter your name:");
 		name=sc.nextLine();
 		System.out.println("Enter your address:");
@@ -27,7 +28,6 @@ public class Getset {
 		ptype=sc.nextLine();
 		System.out.println("Enter proof id:");
 		pid=sc.nextLine();
-		//System.out.println("Your details are:\n");
 		Getset d=new Getset();
 		d.setname(name,address,cnum,email,ptype,pid);
 		System.out.println("Name:"+d.getname());
@@ -36,8 +36,6 @@ public class Getset {
 		System.out.println("Email:"+d.getemail());
 		System.out.println("Proof type:"+d.getptype());
 		System.out.println("Proof ID:"+d.getpid());
-		
-
 	}
 	public String getname()
 	{
