@@ -1,5 +1,6 @@
 import java.util.Scanner;
-public class AbstractionClassMain {
+public class AbstractionClassMain 
+{
 
 	public static void main(String[] args) 
 	{
