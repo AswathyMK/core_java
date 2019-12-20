@@ -6,9 +6,6 @@ interface Example
 	void method3();
 }
 
-
-
-
  class InterfaceExample implements Example
  {
 
@@ -25,13 +22,8 @@ interface Example
 	{
 		System.out.println("method3");
 	}
-	 
-	 
-	 
-	 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) 
+	{
 		Example t=new InterfaceExample();
 		t.method1();
 		t.method2();
