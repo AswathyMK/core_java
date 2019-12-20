@@ -1,5 +1,5 @@
 
-public class InheritedClass extends AbstractionClass
+public class AbstractionClassInherited extends AbstractionClass
 {
 	public void add(int a,int b)
 	{
