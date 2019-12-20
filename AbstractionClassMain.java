@@ -1,8 +1,8 @@
 import java.util.Scanner;
-public class MainAbstraction {
+public class AbstractionClassMain {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) 
+	{
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
