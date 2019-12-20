@@ -6,7 +6,7 @@ public class AbstractionClassMain {
 		Scanner sc=new Scanner(System.in);
 		int a=sc.nextInt();
 		int b=sc.nextInt();
-		AbstractionClass i=new InheritedClass();
+		AbstractionClass i=new AbstractionClassInherited();
 		i.add(a,b);
 		i.subtract(a,b);
 	}
