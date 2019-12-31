@@ -1,4 +1,4 @@
-public class ExceptionalHandling_Example1 
+public class ExceptionHandling_Example1 
 {
 	static void check()throws ArithmeticException//throws keyword used to show that which exception are to be handled
 	{
