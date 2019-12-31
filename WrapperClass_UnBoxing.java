@@ -1,4 +1,4 @@
-public class UnBoxing 
+public class WrapperClass_UnBoxing 
 {
 	public static void main(String[] args) 
 	{
