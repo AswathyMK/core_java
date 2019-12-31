@@ -8,7 +8,7 @@ public class ExceptionHandling_Example1
 	public static void main(String[] args) 
 	{
 		//try catch block is used for exception handling
-		try//Exception making statements are written in try block.
+		try //Exception making statements are written in try block.
 		{
 			check();
 			
