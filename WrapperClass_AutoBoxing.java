@@ -1,5 +1,5 @@
 
-public class AutoBoxing
+public class WrapperClass_AutoBoxing
 {
 	public static void main(String[] args) 
 	{
